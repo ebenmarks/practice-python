@@ -6,7 +6,7 @@ b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 highest = max([max(a), max(b)])
 
 #create list from 1 to the highest number to iterate through
-iter = range(1, highest)
+lsrng = range(1, highest)
 
 #create empty list for the results
 results = []
@@ -18,7 +18,7 @@ def comp(n):
         results.append(n)
 
 #iterate through the lists
-for i in iter:
+for i in lsrng:
     comp(i)
 
 #print the results
