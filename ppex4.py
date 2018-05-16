@@ -1,10 +1,10 @@
 num = int(input("Give me a number: "))
-divi = []
+results_list = []
 
-list = range(1, num)
+start_list = range(1, num)
 
-for i in list:
+for i in start_list:
     if num % i == 0:
-        divi.append(i)
+        results_list.append(i)
 
-print(f"Numbers that are divisors of {num}: {divi}")
+print(f"Numbers that are divisors of {num}: {results_list}")
